@@ -11,6 +11,11 @@ package geometri;
  */
 public class Lingkaran {
     double radius;
+
+    public Lingkaran(double radius) {
+        this.radius = radius;
+    }
+    
     
     double luas (){
         return 3.14 * Math.pow(radius, 2);
